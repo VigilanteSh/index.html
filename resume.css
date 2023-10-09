@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;0,400;1,100&family=Titillium+Web:wght@300&family=Young+Serif&display=swap');
+body {
+  background: rgba(2, 49, 61, 0.829);
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 20px;
+}
+.info1 {
+  display: flex;
+}
+.avatar {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin-top: 16px ;
+}
+.info {
+  margin: 0 10px 10px 10px;
+  padding: 5px;
+}
+.info h1 {
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+}
+.info p {
+  font-family: Courier New, monospace; 
+  font-size: 12px;
+  background: rgba(2, 49, 61, 0.829);
+  border-radius: 20px;
+  padding: 10px;
+}
+.info p:hover {
+  color: white;
+}
+
+.social h2 {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+}
+.social a {
+  padding: 2px;
+  background: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  margin-left: 40px; 
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  
+}
+.btn:hover {
+  background: black;
+  color: white;
+  /* font-size: 1rem; */
+}
+.card h2{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.hobby {
+  background: rgba(2, 49, 61, 0.829);
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 0;
+}
+.hobby li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.hobby li:hover {
+  background: white;
+  border-radius: 25px;
+}
+.table {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.table td, th {
+  text-align: center;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.table th:nth-child(even), .table th:nth-child(odd) {
+  background: white;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row .form-group:last-child{
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
